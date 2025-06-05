@@ -15,6 +15,11 @@ body {
     src:url('filename.woff') format('woff');
 }
 
+img,video {
+    width:100%;
+    display: block;
+}
+
 
 /* TYPOGRAPHY */
 
@@ -59,7 +64,7 @@ div.mb {
 }
 
 div.ml {
-    margin-bottom:50px;
+    margin-left:50px;
 }
 
 
@@ -157,3 +162,33 @@ div.alignend{
 div.aligncenter{
     align-items:center;
 }
+
+
+/* hero video */
+
+div.herovideo{
+    width: 350px;
+}
+
+@keyframes videobounce {
+    from {
+        transform: translate();
+    }
+}
+
+div.herovideo video{
+    border-radius: 100%;
+}
+
+
+/* folio marks */
+
+div.folio {
+    position: fixed;
+    width:100%;
+    text-align:center;
+    background-color: #ff3333;
+}
+
+
+
